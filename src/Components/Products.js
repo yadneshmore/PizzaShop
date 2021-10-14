@@ -11,7 +11,7 @@ const Products = () => {
           <div className="container">
             <div className="row">   
         <div className="col-lg-12 py-4 m-auto text-center">
-       <h1>Pizzas Of Pizza Shop</h1>
+       <h2>Pizzas Of Pizza Shop</h2>
        </div>
 </div>
   </div>
@@ -20,7 +20,7 @@ const Products = () => {
 
 <div className="container py-4">
   <div className="row ">
-
+  <div className="col-lg-12  ">
   <div className="card-deck">
     
 
@@ -34,6 +34,7 @@ const Products = () => {
            })
        }
   </div>
+   </div>
    </div>
   </div>
 <Footer/>

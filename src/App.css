@@ -52,22 +52,23 @@ background-attachment: fixed;
 }
 
 .home_btn{
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .home1_btn{
-  position: absolute;
+  position: relative;
+  left: 265px;
   text-decoration: none;
   outline: none;
   color:white;
   border: none;
   outline: none;
-  border-radius: 10rem;
-  font-weight:30px;
+  border-radius: 8rem;
   font-size: 15px;
-  padding: 15px 30px;
-  bottom: 20%;
-  margin-left: 15rem;
+  padding: 10px 20px;
+  Top: 470px;
+
+
  
 }
 
@@ -76,20 +77,20 @@ background-attachment: fixed;
 }
 
 .footer{
- width: 100%;
- margin-top:30px;
- padding: 25px;
+ max-width: 100%;
+ margin-top:20px;
+ padding:auto;
  background-color: #272727;
 
 }
 
 .social-links{
 display: flex;
-margin-right: 20px;
+
 }
 
 .social-links ul{
-padding: 30px;
+padding: 25px;
 display: flex;
 width: 300px;
 margin:auto;
@@ -106,29 +107,31 @@ margin:auto;
 }
 
 .quick-links{
-  display: flex;
-  margin-right: 10px;  
+ display: flex;
+   margin-right: 10px;
 }
 
 .quick-links ul{
-  display: flex;
+display: flex;
   margin: auto;
 }
 
 .quick-items{
   list-style: none;
+
 }
 
 .quick-items a{
   padding-right: 20px;
-  padding: 0 20px;
-  width: 300px;
+  padding: 5px 10px;
+
+  width: 100%;
   font-size: 15px;
   color: white;
 }
 
 .outer-footer{
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 15px;
   color: white;
@@ -161,28 +164,41 @@ text-align: right;
   {
     .heading
     {
-width: 62%;
-font-size: 2em;
-
-position: absolute;
-top: 39%;
+width: 60%;
+font-size: 40px;
+position: relative;
+top: 35%;
 text-align: center;
     }
 
-
     .para{
-     width: 70%;
+     width: 55%;
      font-size: 20px;
-     position: absolute;
-    padding-right: 45px;
-    top: 49%; 
-   
+     position: relative;
+    top: 35%; 
    }
-  
+
    .home1_btn{
-     margin-bottom: 55px;
-     margin-left: 6rem;
-   }
+    position: relative;
+    left: 75px;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 8rem;
+    font-size: 15px;
+    padding: 10px 20px;
+    Top: 240px;
+   
   }
 
- 
+  .quick-links ul{
+    display: flex;
+
+  }
+
+  .card{
+max-width: 100%;
+  }
+}

@@ -8,6 +8,8 @@ const Footer = () => {
         <link rel="stylesheet" href="css/all.min.css" />
         <link rel="stylesheet" href="css/fontawesome.min.css" />
        
+       <div className="Container">
+  
             <div className="footer">
                
                 <div className="inner-footer">
@@ -23,10 +25,10 @@ const Footer = () => {
                     
                     <div className="quick-links">
                         <ul className="mid">
-                            <li className="quick-items"><a href="/">Home</a></li>
-                            <li className="quick-items"><a href="/about">About</a></li>
-                            <li className="quick-items"><a href="/product">Product</a></li>
-                            <li className="quick-items"><a href="/contactus">ContactUs</a></li>
+                            <li className="quick-items"><NavLink to="/">Home</NavLink></li>
+                            <li className="quick-items"><NavLink to="/about">About</NavLink></li>
+                            <li className="quick-items"><NavLink to="/products">Product</NavLink></li>
+                            <li className="quick-items"><NavLink to="/contactus">ContactUs</NavLink></li>
                             </ul>
                         </div>
                 </div>
@@ -35,6 +37,8 @@ const Footer = () => {
                     </div>
             </div>
         </div>
+        </div>
+     
     )
 }
 

@@ -5,10 +5,11 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Card = (props) => {
     return (
-       <>        
+       <>  
+           
          <div className="col-lg-4 mt-3">
-         
-             <div className="card h-100 ">
+        
+             <div className="card h-100">
                
   <img className="card-img-top" src={props.src} alt="cap"/>
   <div className="card-body ">
@@ -21,8 +22,8 @@ const Card = (props) => {
   </div>
 </div>
 </div>
-
 </>
+
     )
 }
 

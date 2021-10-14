@@ -61,10 +61,7 @@ const ContactUs = () => {
  
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
-{data.name}
-{data.Number} 
-{data.Email}
-{data.msg}                        
+                       
                        </div>
                    </div>
         </div>

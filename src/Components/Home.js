@@ -6,6 +6,7 @@ const Home = () => {
     return(
     <div>
    
+        <div className="Container-fluid">
         <div className="home">
         <Navbar/>
  
@@ -21,9 +22,11 @@ const Home = () => {
     </div>
     
    </div>
+   </div>
   <Menu/> 
   <Footer/>
     </div>
+    
          
     )
 }
