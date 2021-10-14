@@ -1,0 +1,188 @@
+.navbar{
+  width: 100%;
+}
+.navbar-brand{
+  margin-left: 3rem;
+  font-size: 30px;
+}
+
+ .nav-item {
+    font-weight: 10rem;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.form-inline{
+  margin-right: 8rem;
+}
+.form-control{
+  font-size: 15px;
+}
+.btn{
+  font-size: 15px;
+}
+
+.home{
+height: 100vh;
+background-image: url('./images/bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+.heading{
+  color:white;
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
+  margin-left: 30px;
+  width: 40%;
+  text-align: center;
+}
+
+.para{
+  color:white;
+  position: absolute;
+  top: 62%;
+  font-size: 25px;
+  margin-left: 35px;
+  width: 40%;
+  text-align: center;
+}
+
+.home_btn{
+  margin-bottom: 30px;
+}
+
+.home1_btn{
+  position: absolute;
+  text-decoration: none;
+  outline: none;
+  color:white;
+  border: none;
+  outline: none;
+  border-radius: 10rem;
+  font-weight:30px;
+  font-size: 15px;
+  padding: 15px 30px;
+  bottom: 20%;
+  margin-left: 15rem;
+ 
+}
+
+.card{
+  border: 2px solid;
+}
+
+.footer{
+ width: 100%;
+ margin-top:30px;
+ padding: 25px;
+ background-color: #272727;
+
+}
+
+.social-links{
+display: flex;
+margin-right: 20px;
+}
+
+.social-links ul{
+padding: 30px;
+display: flex;
+width: 300px;
+margin:auto;
+}
+
+.social-items{
+  list-style: none;
+}
+
+.social-items a{
+  padding: 10px 20px;
+  font-size: 30px;
+  color: #6cccc6;
+}
+
+.quick-links{
+  display: flex;
+  margin-right: 10px;  
+}
+
+.quick-links ul{
+  display: flex;
+  margin: auto;
+}
+
+.quick-items{
+  list-style: none;
+}
+
+.quick-items a{
+  padding-right: 20px;
+  padding: 0 20px;
+  width: 300px;
+  font-size: 15px;
+  color: white;
+}
+
+.outer-footer{
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.uae{
+display: flex;
+justify-content: center;
+margin-left: 800px;
+}
+
+
+.head{
+margin-top: 30px;
+text-align: left-30px;
+text-align: right;
+  }
+
+
+  .he{
+    color :green;
+  }
+
+  .he2{
+    color: greenyellow;
+  }
+
+  
+  @media(max-width:768px)
+  {
+    .heading
+    {
+width: 62%;
+font-size: 2em;
+
+position: absolute;
+top: 39%;
+text-align: center;
+    }
+
+
+    .para{
+     width: 70%;
+     font-size: 20px;
+     position: absolute;
+    padding-right: 45px;
+    top: 49%; 
+   
+   }
+  
+   .home1_btn{
+     margin-bottom: 55px;
+     margin-left: 6rem;
+   }
+  }
+
+ 
