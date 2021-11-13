@@ -1,27 +1,34 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
+import {Link} from 'react-router-dom/cjs/react-router-dom.min'
 
 
 
-const Card = (props) => {
+const Card = ({product}) => {
+ 
     return (
        <>  
            
          <div className="col-lg-4 mt-3">
         
              <div className="card h-100">
-               
-  <img className="card-img-top" src={props.src} alt="cap"/>
+              
+  <img className="card-img-top" src={product.src} alt="cap"/>
   <div className="card-body ">
-    <h5 className="card-title">{props.title}</h5>
-    <h6 className="price"> {props.price}</h6>
+    <h5 className="card-title">{product.title}</h5>
+    <h6 className="price"> {product.price}</h6>
     <p className="card-text">                
-     {props.text}                
+     {product.text}                
      </p>
-    <NavLink to="/products" className="btn mt-2 btn-primary">{props.btn}</NavLink>
+     <Link to={`/product/${product.id}`}>
+    <button  href="" className="btn mt-2 btn-primary">{product.btn}</button>
+    </Link>
+    </div>
+ 
+   
   </div>
+  
 </div>
-</div>
+
 </>
 
     )

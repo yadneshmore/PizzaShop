@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import img1 from "../images/pizza.jpg"
+
 import Footer from './Footer'
 const About = () => {
     return (

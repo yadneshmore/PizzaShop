@@ -1,29 +1,31 @@
 const express = require('express');
-const App = express();
-
+const app = express();
+const Sdata = require('./Sdata')
 const middleware = (req,res,next) => {
-    console.log("shvsiodfh");
+    console.log("pari");
     next();
 }
-
-
-App.get('/', (req,res) =>{
-res.send('Hello Worl');
+app.get('/', middleware, (req,res) =>{
+res.send("ya");
 });
-
-App.get('/about', middleware, (req,res) =>{
-   
-    res.send('Hello ld');
+app.get('/about', middleware, (req,res) =>{
+    res.send('hello shreesha bab');
     });
-
-App.get('/products', (req,res) =>{
-res.send('Hello Wo');
+app.get('/products', middleware, (req,res) =>{
+    res.send('products');
+});
+app.use('./Sdata')
+app.get('/Sdata', middleware, (req,res) =>{
+    res.sendFile(__dirname +'/Sdata.js');
+    });
+app.get('/product/:id', middleware, (req,res) =>{
+    const product=Sdata.find((p)=>(Number(p.id) === Number(match.params.id)));
+    res.send('product');
+});
+app.get('/contactus', middleware, (req,res) =>{
+res.send(' yadnesh');
 });
 
-App.get('/contactus', (req,res) =>{
-res.send('Hello World');
-});
-
-App.listen(5001,()=>{
-    console.log("ijwpfwe");
+app.listen(9000,()=>{
+    console.log("more yadne");
 })

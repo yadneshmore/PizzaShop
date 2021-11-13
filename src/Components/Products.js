@@ -16,27 +16,21 @@ const Products = () => {
 </div>
   </div>
 
-  
-
 <div className="container py-4">
   <div className="row ">
   <div className="col-lg-12  ">
   <div className="card-deck">
-    
 
        {
-           Sdata.map((val,inde)=>{
-               return <Card key={inde} src={val.src}
-               title={val.title}
-               price={val.price}
-               text={val.text}
-               btn={val.btn}/>
-           })
-       }
+           Sdata.map((product)=> (<Card key={product.id}  product={product}/>))
+       }       
+        
+
   </div>
    </div>
    </div>
   </div>
+ 
 <Footer/>
 </div>
    

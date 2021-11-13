@@ -10,25 +10,24 @@ import About from './Components/About';
 import ContactUs from './Components/ContactUs';
 
 import Products from './Components/Products';
+import Single from './Components/Single';
 
 import {Switch, Route, Redirect} from "react-router-dom";
 function App() {
   return (
     <>
-
-  <Switch>
-   
+  
+  <Switch> 
 <Route exact path="/" component={Home}/>
 <Route exact path="/about" component={About}/>
 <Route exact path="/products" component={Products}/>
+<Route exact path="/product/:id" component={Single}/>
 <Route exact path="/contactus" component={ContactUs}/>
-<Redirect to="/"/>
 
+<Redirect to="/"/>
     </Switch>
-    
     </>
-    
-   
+
   );
 }
 

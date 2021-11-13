@@ -1,15 +1,17 @@
 {
   "name": "server",
+ 
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "app.js",
   "scripts": {
-    "nodemon": "nodemon App.js"
+    "nodemon": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.11",
     "nodemon": "^2.0.13"
   }
 }

@@ -24,7 +24,7 @@
 
 .home{
 height: 100vh;
-background-image: url('./images/bg.jpg');
+background-image: url('../src/images/bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -159,7 +159,6 @@ text-align: right;
     color: greenyellow;
   }
 
-  
   @media(max-width:768px)
   {
     .heading
